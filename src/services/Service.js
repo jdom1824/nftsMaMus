@@ -10,33 +10,33 @@ const AllServices = () => {
   const serviceData = [
     {
       image: ima1,
-      title: "i-CO₂ Carbon Capture",
-      description: "Pioneering sustainability with our innovative carbon capture service: Employing cutting-edge technology to capture and securely store carbon emissions with utmost efficiency. Our approach significantly reduces environmental footprints, paving the way for a resilient future that champions climate change mitigation.",
+      title: "Aula móvil",
+      description: "Equipada para desplegar rápidamente en cualquier lugar, una instalación educativa con todas las herramientas de software, hardware y materiales para la enseñanza, el desarrollo e implementación de ideas innovadoras, contenidos STEAM y otros programas.",
     },
     {
       image: ima2,
-      title: "Carbon Credit Sales by i-CO₂",
-      description: "Committed to eco-conscious carbon offsetting solutions: We offer a comprehensive service that avails carbon credits for purchase to environmentally-minded individuals and businesses. With a primary focus on reducing carbon footprints and promoting environmental sustainability, we foster meaningful contributions to combatting climate change and transitioning to a greener economy.",
+      title: "Kit de Robótica",
+      description: "Octabio Education 2.0 hace que la ciencia, la tecnología, la ingeniería, las matemáticas y la codificación cobren vida. Basado en tecnología de open source amigable para el aula y procesos de autoaprendizaje, es una poderosa herramienta tecnológica, para el desarrollo proyectos atractivos y escalables que aumenta la confianza de los estudiantes para hacer preguntas, definir problemas y diseñar sus propias soluciones poniendo el aprendizaje de STEM directamente en sus manos.",
     },
     {
       image: ima3,
-      title: "AI Crop Analysis for Carbon Capture",
-      description: "Revolutionizing environmental solutions with AI: We leverage artificial intelligence in our advanced carbon capture technology, optimizing and streamlining the process of removing CO2 emissions from the atmosphere. By harnessing the capabilities of machine learning, we enhance efficiency and efficacy, thereby introducing a new era of eco-conscious technological innovations.",
+      title: "Plataforma Online y App",
+      description: "Plataforma LMS (Learning Management System) y aplicación móvil, para el aprendizaje masivo, con seguimiento personalizado para grupos e individual, permite el desarrollo y seguimientos de los contenidos identificando talentos potenciales y oportunidades de aprendizaje. Nuestra plataforma crea una poderosa comunidad colaborativa que permite fortalecer el intercambio de conocimientos y experiencias.",
     },
     {
       image: ima4,
-      title: "EcoToken: NFT Carbon Credits by i-CO₂",
-      description: "Tokenization of Sustainability with i-CO₂ NFT Carbon Credits: Pushing the boundaries of technological innovation and environmental responsibility, our NFT Carbon Credits offer a unique and advanced solution for carbon emission offsetting. By utilizing blockchain technology, each carbon credit is converted into a Non-Fungible Token (NFT), providing unparalleled transparency, traceability, and security. This service not only enables individuals and businesses to reduce and neutralize their carbon footprint, but it also promotes a decentralized and democratic carbon offset market. By acquiring our NFT Carbon Credits, you are contributing to the protection of the environment, the fight against climate change, and the fostering of a green and digital economy.",
+      title: "Material de apoyo y Metodologías",
+      description: "El material permite a los alumnos de cualquier nivel educativo incursionar en los conceptos básicos de ingeniería y la ciencia, utilizándolos para encontrar diferentes formas de solucionar un mismo problema con una cantidad limitada de elementos. De esta manera, se fomenta el pensamiento crítico, trabajo en equipo y creatividad; habilidades necesarias para cumplir con los desafíos que representa la revolución industrial 4.0.",
     },
     {
       image: ima5,
-      title: "Dashboards Data Analysis with i-CO₂",
-      description: "Experience Advanced Data Insights with Dashboards Data Analysis by i-CO₂: Our data analysis service harnesses the power of data visualization dashboards to provide detailed insights into your carbon emission trends. These dashboards, powered by the latest data processing technologies, present complex carbon emission data in an accessible and user-friendly manner. Designed with the aim of empowering businesses and individuals alike, our dashboards offer real-time updates on key carbon emission metrics, providing a comprehensive overview of your carbon footprint. They enable users to closely monitor and understand their emission patterns, making it easier to implement effective strategies for carbon reduction. Through the integration of AI and machine learning, our dashboards are capable of analyzing vast amounts of data, enabling more precise forecasting and the identification of opportunities for improvement. Additionally, the data generated by these dashboards can be utilized to demonstrate compliance with environmental regulations and commitment to sustainability."
+      title: "El material didáctico basado en Retos",
+      description: "Está creado para ser llevado a cabo de manera flexible dentro y fuera del aula, como taller o actividades de formación de los conceptos de ingeniería, arte y ciencia; así como para fomentar habilidades de cooperación, comunicación, responsabilidad, compromiso y confianza. Todos ellos impulsados y motivados por la creatividad y la innovación para la resolución de problemas. Es aplicable tanto en educación básica, media superior y superior."
     },
     {
       image: ima6,
-      title: "i-CO₂: Carbon Reduction Consulting",
-      description: "Sustainability Consulting & Carbon Reduction Strategy with i-CO₂: Dive into a comprehensive consulting experience tailored to help your business become more sustainable and carbon-efficient. Our team of experienced environmental strategists will work closely with you to assess your current environmental impact and identify areas of improvement. Our consulting service is more than just advice - it's a partnership that aims at achieving measurable results. We combine data-driven insights with practical steps to help you reduce your carbon footprint and implement sustainable practices within your organization. Whether you are a start-up or an established business, our customized solutions will guide you towards a greener future. With i-CO₂, you can confidently transition towards sustainable operations, enhance your brand's reputation, and contribute positively to the fight against climate change.",
+      title: "Sistemas de capacitación de multiplicadores STEAM",
+      description: "Conscientes de la necesidad de multiplicar el conocimiento y los procesos de formación STEAM, diseñamos una metodología de formación virtual para capacitadores. La certificación MAMUS para capacitadores genera una oportunidad de primer empleo para nuestros jóvenes.",
     },
   ];
 
@@ -115,7 +115,7 @@ const AllServices = () => {
       fontSize: '1em',
     },
     readMoreButton: {
-      backgroundColor: '#008000',
+      backgroundColor: '#12417a',
       color: '#FFF',
       border: 'none',
       borderRadius: '5px',
@@ -127,7 +127,7 @@ const AllServices = () => {
 
   return (
     <div style={styles.servicesContainer}>
-      <h1 style={styles.servicesTitle}>Discover Our Services</h1>
+      <h1 style={styles.servicesTitle}>Componentes MAMUS</h1>
       <div style={styles.cardsContainer}>
         {serviceData.map((service, index) => (
           <ServiceCard key={index} data={service} />

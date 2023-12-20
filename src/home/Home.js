@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import gemelos from '../image/GemelosDigitales.png';
+import gemelos from '../image/mamusNFT.png';
 
 const Home = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -26,7 +26,7 @@ const Home = () => {
       padding: '30px',
       margin: '0 auto',
       maxWidth: '1200px',
-      borderBottom: '1px solid #008000', // Agrega una línea de borde inferior verde
+      borderBottom: '1px solid #12417a', // Agrega una línea de borde inferior verde
     },
     leftContainer: {
       flex: 1,
@@ -56,7 +56,7 @@ const Home = () => {
       textAlign: 'left',
     },
     button: {
-      backgroundColor: '#008000',
+      backgroundColor: '#12417a',
       color: '#FFF',
       padding: '8px 16px',
       fontSize: '16px',
@@ -70,16 +70,16 @@ const Home = () => {
       width: '100%',
       height: isMobile ? 'auto' : '100%',
       objectFit: 'cover',
-      border: '5px solid #008000',
-      boxShadow: '0 0 10px #008000',
+      border: '5px solid #12417a',
+      boxShadow: '0 0 10px #12417a',
     },
   };
 
   return (
     <div style={styles.container}>
       <div style={styles.leftContainer}>
-        <h1 style={styles.bigText}>i-CO₂: Measuring Crops' Environmental Impact</h1>
-        <p style={styles.smallText}>Join i-CO₂ in reducing CO₂ emissions and increasing the value of your crops through data-driven insights and analysis.</p>
+        <h1 style={styles.bigText}>MAMUS NFT: Comunidad del conocimiento para el futuro</h1>
+        <p style={styles.smallText}>Certifica tu futuro con MAMUS NFT: La esencia de la innovación STEM en cada token.</p>
         <Link to="/services" style={styles.button}>View All Services</Link>
       </div>
       <div style={styles.rightContainer}>

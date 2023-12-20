@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../image/I-CO.png'
+import logo from '../image/mamasLogo.png'
 
 const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState('transparent');
@@ -95,7 +95,7 @@ const Navbar = () => {
         background: '#333',
       },
     button: {
-      backgroundColor: '#008000',
+      backgroundColor: '#12417a',
       color: '#FFF',
       padding: '8px 16px',
       fontSize: '14px',
@@ -164,17 +164,7 @@ return (
             </Link>
           </li>
           <li style={styles.collapsedMenuItem}>
-            <Link to="/services" style={styles.collapsedMenuLink} onClick={toggleNav}>
-              About
-            </Link>
-          </li>
-          <li style={styles.collapsedMenuItem}>
-            <Link to="/services" style={styles.collapsedMenuLink} onClick={toggleNav}>
-              Contact
-            </Link>
-          </li>
-          <li style={styles.collapsedMenuItem}>
-                <Link to="/services" style={styles.collapsedMenuLink} onClick={toggleNav}>
+                <Link to="/" style={styles.collapsedMenuLink} onClick={toggleNav}>
                   Sign Up
                 </Link>
           </li>
@@ -195,15 +185,9 @@ return (
         <Link to="/services" style={{ ...styles.navbarItem, ...styles.navbarLink }}>
           Services
         </Link>
-        <Link to="/services" style={{ ...styles.navbarItem, ...styles.navbarLink }}>
-          About
-        </Link>
-        <Link to="/services" style={{ ...styles.navbarItem, ...styles.navbarLink }}>
-          Contact
-        </Link>
           </div>
           <div style={styles.button}>
-            <Link to="/services" style={styles.button}>
+            <Link to="/" style={styles.button}>
               Sign Up
             </Link>
           </div>
