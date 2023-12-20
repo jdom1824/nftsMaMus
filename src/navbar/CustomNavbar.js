@@ -111,7 +111,7 @@ const Navbar = () => {
       right: 0,
       height: '100%',
       width: '70%', // Ajusta esto según tus preferencias.
-      background: 'linear-gradient(to bottom, rgba(255, 250, 240, 0.9), rgba(0, 128, 0, 0.5))', // Degradado lineal de verde a negro con transparencia
+      background: 'linear-gradient(to bottom, rgba(255, 250, 240, 0.9), rgba(0, 0, 139, 0.5))', // Degradado lineal de verde a negro con transparencia
       boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.3)',
       transform: isNavOpen ? 'translateX(0)' : 'translateX(100%)',
       transition: 'transform 0.3s ease-in-out',
