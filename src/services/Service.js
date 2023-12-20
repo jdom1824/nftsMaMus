@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import ima1 from '../image/IMG_4263.jpg';
-import ima2 from '../image/IMG_4871.jpg';
-import ima3 from '../image/IMG_4905.jpg';
-import ima4 from '../image/IMA-NFT.avif';
-import ima5 from '../image/maxresdefault.jpg';
-import ima6 from '../image/IMG_4291.jpg';
+import ima1 from '../image/EasyAU.png';
+import ima2 from '../image/Kit.png';
+import ima3 from '../image/Plata.png';
+import ima4 from '../image/Material.png';
+import ima5 from '../image/Metodologia.png';
+import ima6 from '../image/Steam.png';
 
 const AllServices = () => {
   const serviceData = [
@@ -30,7 +30,7 @@ const AllServices = () => {
     },
     {
       image: ima5,
-      title: "El material didáctico basado en Retos",
+      title: "Material didáctico basado en Retos",
       description: "Está creado para ser llevado a cabo de manera flexible dentro y fuera del aula, como taller o actividades de formación de los conceptos de ingeniería, arte y ciencia; así como para fomentar habilidades de cooperación, comunicación, responsabilidad, compromiso y confianza. Todos ellos impulsados y motivados por la creatividad y la innovación para la resolución de problemas. Es aplicable tanto en educación básica, media superior y superior."
     },
     {

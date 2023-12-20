@@ -83,7 +83,7 @@ const Home = () => {
         <Link to="/services" style={styles.button}>View All Services</Link>
       </div>
       <div style={styles.rightContainer}>
-        <img src={gemelos} alt="Campo de trigo" style={styles.image} />
+        <img src={gemelos} alt="Mamus" style={styles.image} />
       </div>
     </div>
   );

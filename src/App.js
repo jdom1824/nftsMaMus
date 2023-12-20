@@ -5,7 +5,6 @@ import Home from './home/Home';
 import About from './about/About';
 import Footer from './footer/Footer';
 import Services from './services/Service';
-import Features from './features/Feature';
 
 const App = () => {
   return (
@@ -16,7 +15,6 @@ const App = () => {
         <Route path="/about" element={<About />} />
       </Routes>
       <Services/>
-      <Features/>
       <Footer/>
     </Router>
   );
