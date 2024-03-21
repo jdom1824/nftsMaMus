@@ -78,8 +78,8 @@ const Home = () => {
   return (
     <div style={styles.container}>
       <div style={styles.leftContainer}>
-        <h1 style={styles.bigText}>MAMUS NFT: Comunidad del conocimiento para el futuro</h1>
-        <p style={styles.smallText}>Certifica tu futuro con MAMUS NFT: La esencia de la innovación STEM en cada token.</p>
+        <h1 style={styles.bigText}>MAMŪS NFT: Comunidad del conocimiento para el futuro</h1>
+        <p style={styles.smallText}>Certifica tu futuro con MAMŪS NFT: La esencia de la innovación STEM en cada token.</p>
         <Link to="/services" style={styles.button}>View All Services</Link>
       </div>
       <div style={styles.rightContainer}>

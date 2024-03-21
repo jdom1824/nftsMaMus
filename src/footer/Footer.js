@@ -17,7 +17,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faLinkedinIn} style={styles.icon} />
           </a>
         </div>
-        <p style={styles.footerText}>© 2023 Conexalab. Todos los derechos reservados.</p>
+        <p style={styles.footerText}>© 2024 Conexalab. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

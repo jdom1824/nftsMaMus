@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../image/mamasLogo.png'
+import logo from '../image/mamasLogo.png';
+
 
 const Navbar = () => {
   const [navbarBackground, setNavbarBackground] = useState('transparent');
@@ -184,6 +185,9 @@ return (
         </Link>
         <Link to="/services" style={{ ...styles.navbarItem, ...styles.navbarLink }}>
           Services
+        </Link>
+        <Link to="/nfts" style={{ ...styles.navbarItem, ...styles.navbarLink }}>
+          NFTS
         </Link>
           </div>
           <div style={styles.button}>
